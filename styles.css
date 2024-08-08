@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.google-borde {
+    text-align: center;
+}
+
+.google-logo img {
+    width: 272px;
+    height: 92px;
+    margin-bottom: 20px;
+}
+
+.borde-barradebusqueda {
+    margin-bottom: 20px;
+}
+
+.barradebusqueda {
+    width: 580px;
+    height: 44px;
+    padding: 0 15px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.barradebusqueda:focus {
+    border-color: #4285f4;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28), 0 0 8px rgba(66, 133, 244, 0.3);
+}
+
+.bordes-botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buscar-boton,
+.suerte-boton {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    height: 36px;
+    padding: 0 16px;
+    font-size: 14px;
+    color: #3c4043;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.suerte-boton:hover,
+.buscar-boton:hover {
+    background-color: #e8e8e8;
+}
